@@ -13,7 +13,8 @@
 
 ### 👋 Sobre mí
 
-- 🧠 Construyo **aplicaciones con IA y automatizaciones** que funcionan **en producción 24/7**, no solo en demos.
+- 🧠 Construyo **aplicaciones con IA, automatizaciones y webs** que funcionan **en producción 24/7**, no solo en demos.
+- 🎨 Hago **webs con animación cinematográfica** y webs para **clientes reales**, como [Estética Carme Cots](https://esteticacarmecots.com).
 - 🐧 Administro mi propio **VPS Linux** (Docker, systemd, backups, SSL) y uso **CachyOS + Hyprland** a diario.
 - 🛠️ Ahora mismo: **[Irokai 色界](https://danitechia.github.io/irokai-web/)**, una personalización para Linux donde cada fondo de pantalla genera su propia estética.
 - 🌍 Barcelona · Abierto a colaboraciones y proyectos.
@@ -22,6 +23,8 @@
 
 <p align="center">
   <a href="https://danitechia.github.io/irokai-web/"><img src="assets/card-irokai.svg" width="49%" alt="Irokai"></a>
+  <a href="https://github.com/danitechIA/estetica-carme-cots"><img src="assets/card-carme.svg" width="49%" alt="Estética Carme Cots"></a>
+  <a href="https://github.com/danitechIA/akane-3d"><img src="assets/card-akane.svg" width="49%" alt="AKANE"></a>
   <a href="https://github.com/danitechIA/TIKTOKAI"><img src="assets/card-tiktokai.svg" width="49%" alt="TikTokAI"></a>
   <a href="https://github.com/danitechIA/AI-SKILL-CREATOR"><img src="assets/card-skill.svg" width="49%" alt="AI Skill Creator"></a>
   <a href="https://github.com/danitechIA/n8n_tikets"><img src="assets/card-tikets.svg" width="49%" alt="Analizador de Tickets"></a>

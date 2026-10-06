@@ -79,6 +79,12 @@ def banner(tema):
 
 # ───────────────────────── tarjetas de proyecto ─────────────────────────
 PROYECTOS = {
+    "carme": dict(nombre="Estética Carme Cots", estado="Cliente real · en producción", color="#C9A227",
+                  desc=["Web de un centro de estética Skeyndor en", "Barcelona: tratamientos, productos y reservas."],
+                  chips=["React", "Vite", "GSAP", "SEO"], icono="✦"),
+    "akane": dict(nombre="AKANE 茜", estado="Prototipo · animaciones cinematográficas", color="#DC2626",
+                  desc=["Entrada 3D por scroll: la cámara atraviesa", "el pórtico de un templo. Sin librerías."],
+                  chips=["HTML", "CSS", "JavaScript", "Vercel"], icono="茜"),
     "irokai": dict(nombre="Irokai 色界", estado="Producto · en venta pronto", color=R,
                    desc=["Personalización para Linux: cada fondo de pantalla", "genera su propia estética y lo viste todo a juego."],
                    chips=["Bash", "Python", "Lua", "Hyprland"], icono="色"),
@@ -151,7 +157,8 @@ if __name__ == "__main__":
         open(f"{AQUI}/banner-{tema}.svg", "w", encoding="utf-8").write(banner(tema))
     for p in PROYECTOS:
         open(f"{AQUI}/card-{p}.svg", "w", encoding="utf-8").write(tarjeta(p))
-    SUB = {"tiktokai": "Subtítulos karaoke con IA para vídeo vertical", "skill": "Skills para agentes de código IA, sin terminal",
+    SUB = {"carme": "Web de un centro de estética en Barcelona", "akane": "Prototipo de animaciones cinematográficas por scroll",
+           "tiktokai": "Subtítulos karaoke con IA para vídeo vertical", "skill": "Skills para agentes de código IA, sin terminal",
            "tikets": "Tickets y facturas a datos con IA y n8n", "portafolio": "React · Vite · GSAP · bilingüe",
            "littlelemon": "Django REST Framework · MySQL · tests", "irokai": "Una estética para cada fondo"}
     for p, s in SUB.items():
