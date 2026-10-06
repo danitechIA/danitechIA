@@ -1,30 +1,65 @@
-# Hola, soy Daniel 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-oscuro.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-claro.svg">
+  <img alt="Daniel Dans — Full-Stack & AI Developer" src="assets/banner-oscuro.svg" width="100%">
+</picture>
 
-**Full-Stack & AI Developer** — Barcelona, España
+<p align="center">
+  <a href="https://danitechia.vercel.app"><img src="https://img.shields.io/badge/Portafolio-danitechia.vercel.app-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio"></a>
+  <a href="https://www.linkedin.com/in/daniel-dans-cots-864aa53a7"><img src="https://img.shields.io/badge/LinkedIn-Daniel%20Dans-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:ddctrabajocontacto@gmail.com"><img src="https://img.shields.io/badge/Email-Escríbeme-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://danitechia.github.io/irokai-web/"><img src="https://img.shields.io/badge/Irokai-色界-F43F5E?style=for-the-badge&logo=linux&logoColor=white" alt="Irokai"></a>
+</p>
 
-Construyo aplicaciones y sistemas automatizados con IA que funcionan en producción 24/7. Todo lo que enseño está desplegado y en uso real: gestiono mi propio VPS Linux con varios servicios corriendo (systemd, Docker, backups, SSL).
+### 👋 Sobre mí
 
-🌐 **Portafolio:** [danitechia.vercel.app](https://danitechia.vercel.app) · 💼 [LinkedIn](https://www.linkedin.com/in/daniel-dans-cots-864aa53a7)
+- 🧠 Construyo **aplicaciones con IA y automatizaciones** que funcionan **en producción 24/7**, no solo en demos.
+- 🐧 Administro mi propio **VPS Linux** (Docker, systemd, backups, SSL) y uso **CachyOS + Hyprland** a diario.
+- 🛠️ Ahora mismo: **[Irokai 色界](https://danitechia.github.io/irokai-web/)**, una personalización para Linux donde cada fondo de pantalla genera su propia estética.
+- 🌍 Barcelona · Abierto a colaboraciones y proyectos.
 
-## 🚀 Proyectos destacados
+### 🚀 Proyectos destacados
 
-| Proyecto | Qué es | Stack |
+<p align="center">
+  <a href="https://danitechia.github.io/irokai-web/"><img src="assets/card-irokai.svg" width="49%" alt="Irokai"></a>
+  <a href="https://github.com/danitechIA/TIKTOKAI"><img src="assets/card-tiktokai.svg" width="49%" alt="TikTokAI"></a>
+  <a href="https://github.com/danitechIA/AI-SKILL-CREATOR"><img src="assets/card-skill.svg" width="49%" alt="AI Skill Creator"></a>
+  <a href="https://github.com/danitechIA/n8n_tikets"><img src="assets/card-tikets.svg" width="49%" alt="Analizador de Tickets"></a>
+  <a href="https://github.com/danitechIA/Portafolio"><img src="assets/card-portafolio.svg" width="49%" alt="Portafolio"></a>
+  <a href="https://github.com/danitechIA/littlelemon-capstone"><img src="assets/card-littlelemon.svg" width="49%" alt="Little Lemon API"></a>
+</p>
+
+### 🛠️ Tecnologías
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,django,nodejs,java,spring,cs,dotnet,rust,tauri,kotlin&perline=11" alt="Backend"><br>
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,vite&perline=11" alt="Frontend">
+  <img src="https://skillicons.dev/icons?i=linux,arch,bash,docker,mysql,postgres,git,github,githubactions,vercel,lua&perline=11" alt="Infraestructura">
+</p>
+
+| Área | Lo que uso |
+|---|---|
+| **Backend** | Python · FastAPI · Django REST · Node.js · Java / Spring Boot · C# / .NET · Rust |
+| **Frontend** | React · Vite · GSAP · JavaScript · HTML / CSS |
+| **IA y automatización** | LLMs (Groq, Gemini, OpenAI) · Whisper · n8n · Prompt engineering · agentes de código |
+| **Infraestructura** | Linux / VPS · Docker · systemd · MySQL · PostgreSQL · CI/CD (Vercel, GitHub Actions) |
+| **Escritorio y Linux** | Tauri 2 · Hyprland · Lua · Bash · ffmpeg |
+
+### 📈 Actividad
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danitechIA/danitechIA/output/serpiente-oscura.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danitechIA/danitechIA/output/serpiente.svg">
+  <img alt="Serpiente comiéndose mis contribuciones" src="https://raw.githubusercontent.com/danitechIA/danitechIA/output/serpiente.svg" width="100%">
+</picture>
+
+### 📜 Certificaciones
+
+| | Certificación | Emisor |
 |---|---|---|
-| [AI Skill Generator](https://github.com/danitechIA/AI-SKILL-CREATOR) | App de escritorio para crear skills de agentes de código IA y chatear con el agente, sin terminal. [Descárgala](https://github.com/danitechIA/AI-SKILL-CREATOR/releases/latest) (2,5 MB) | Tauri 2 · Rust · Tokio |
-| [TikTokAI](https://github.com/danitechIA/TIKTOKAI) | Editor de subtítulos karaoke palabra a palabra con IA, estilo CapCut, para vídeos de TikTok | FastAPI · Groq Whisper · ffmpeg |
-| [Analizador de Tickets](https://github.com/danitechIA/n8n_tikets) | Automatización que extrae datos de tickets y facturas con IA a partir de una foto | n8n · Docker · MySQL · OpenAI |
-| [Portafolio](https://github.com/danitechIA/Portafolio) | Este portafolio: React + Vite con animaciones, bilingüe, CI/CD en Vercel | React · Vite · GSAP |
+| 🎓 | **Meta Back-End Developer**, certificado profesional (9 cursos) | Meta · Coursera |
+| 🤖 | **Google Prompting Essentials**, especialización (4 cursos) | Google · Coursera |
 
-## 🛠️ Stack
-
-**Backend:** Python · FastAPI · Node.js · Java · C#/.NET · Spring Boot · REST APIs
-**Frontend:** React · JavaScript · Vite · GSAP · HTML/CSS
-**IA & Automatización:** LLMs (Groq, Gemini) · Whisper · n8n · Prompt Engineering
-**Infra:** Linux/VPS · Docker · systemd · MySQL · PostgreSQL · Git · Vercel CI/CD
-
-## 📜 Certificaciones
-
-- **Meta Back-End Developer** — Certificado Profesional (9 cursos), Coursera
-- **Google Prompting Essentials** — Especialización (4 cursos), Coursera
-
-📫 **Contacto:** ddctrabajocontacto@gmail.com
+<p align="center">
+  <sub>Hecho con café, Linux y muchas horas · ¿Hablamos? <a href="mailto:ddctrabajocontacto@gmail.com">ddctrabajocontacto@gmail.com</a></sub>
+</p>
